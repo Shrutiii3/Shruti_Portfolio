@@ -1,0 +1,486 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    /*background-color: rgb(0, 0, 33);*/
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position:sticky;
+    top: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    height: 68px;
+    background-color: rgb(25, 25, 61);
+    align-items: center;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(136, 136, 211);
+    font-size: 1.09rem;
+}
+main{
+    
+    align-items: center;
+    min-height: 100vh;
+}
+.left{
+    font-size: 1.7rem;
+}
+.first{
+    background-color: rgb(0, 0, 33);
+    display: flex;
+    justify-content: space-around;
+    padding:50px 0;
+    align-items: center;
+}
+.first > div{    /*only considers first div of left and right section because of'>'*/
+    width: 30%;
+}
+.leftSection{
+    font-size: 2rem;
+} 
+.rightSection img{
+    width: 110%;
+    margin: 50px 0;
+}
+.purple{
+    color:rgb(191, 148, 232);
+}
+#element{
+    color:rgb(191, 148, 232);
+}
+.scrolling{
+    height: 33px;
+}
+.me{
+    margin: 20px 120px;
+    font-size: 2.5rem;
+    color: black;
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-around;
+    margin: 70px 20px;
+    font-size: 23px;
+    padding: 20px;
+}
+.sec > div{
+    width: 40%;
+}
+.lSection{
+    padding: 10px 0;
+    /*background-color: rgb(253, 232, 233);*/
+    border-radius: 250px;
+    height: fit-content;
+    margin-top: 150px;
+    margin-right: 50px;
+    
+    
+    
+    background-color: rgb(205, 205, 235);
+    background-color: rgb(197, 170, 183);
+    background-color: white;
+    
+}
+/*.lSection:hover{
+    box-shadow: 10px 10px 8px rgb(106, 88, 97);
+    
+    transform: translateY(-2px) ;
+    
+    cursor: pointer;
+    
+}*/
+.rSection{
+    padding: 30px;
+    /*margin-top: 300px;*/
+    background-color: rgb(197, 170, 183);
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 248, 248);
+    box-shadow: 10px 10px 8px rgb(106, 88, 97);
+    width: 360px;
+    
+    
+    border-radius: 15px;
+}
+
+/*.rSection:hover{
+    box-shadow: 10px 10px 8px #b0b0c6;
+    box-shadow: 10px 10px 8px rgb(106, 88, 97);
+    background-color: rgb(230, 248, 248);
+   
+    transform: translateY(-4px) ;
+    
+    cursor: pointer;
+    
+ 
+}*/
+.third{
+    
+    height:300px;
+    
+   
+}
+.box{
+    display: flex;
+    background:black ;
+    height: 2.5px;
+    width: 80%;
+    margin-top: 180px;
+    margin-left: 100px;
+    
+
+}
+
+.vertical{
+    height: 83px;
+    width: 1px;
+    background-color: black;
+    margin-left: 110px;  
+    margin-right: 40px;
+
+    
+}
+.vertical img{
+    z-index: 50;
+    position: relative;
+    z-index: 50;
+    width: 50px;
+    top: -50px;
+    left: -23px;
+}
+.vertical-title{
+    font-size: 25px;
+    position: relative;
+    top: 60px;
+    width: 150px;
+    color:rgb(94, 64, 59) ;
+    font-weight: bold;
+    cursor:pointer;
+
+}
+.vertical .vertical-title:hover{
+    font-weight: bolder;
+}
+.vertical-desc{
+    position: relative;
+    top: 75px;
+    font-size: 8px;
+    width: 90px;
+    color: rgb(63, 41, 43) ;
+}
+.vertical .vertical-desc:hover{
+    font-size: 15px;
+    cursor: pointer;
+    width: 150px;
+}
+.forth{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: black;
+    
+    align-items: start;
+    margin:100px 10px;
+    row-gap: 20px;
+}
+.another{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    background-color:rgb(229, 255, 255);
+    width: 360px;
+    min-height: 400px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 10px 10px black;
+}
+.card:hover{
+    transform: translateY(-2px);
+    box-shadow: 10px 10px 10px rgb(106, 88, 97);
+}
+.desc p{
+    margin: 8px 0;
+}
+.realimg{
+    width: 100%;
+    height: 180px;
+    object-fit:cover;
+    
+
+}
+.video{
+    justify-content:space-around;
+    margin: 30px;
+    background-color:bisque;
+    border-radius: 10px;
+    
+}
+.video video{
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;  
+}
+
+.written{
+    color: black;
+    margin:30px ;
+}
+
+
+
+.fifth{
+    color: black;
+    margin: 20px 120px;
+    height:100px;
+}
+h2{
+    color: black;
+    margin: 20px 120px;
+    margin-top: 30px;
+}
+footer{
+    background-color: rgb(48, 46, 46);
+    color: white;
+    cursor:default;
+    margin-top:auto;
+    width: 100%;
+   
+}
+.footer{
+    display: flex;
+    padding-top: 12px;
+    justify-content: space-evenly;
+    
+}
+footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center ;
+    
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 30px;
+}
+.line{
+    width: 18px;
+    background-color: white;
+    height: 2px;
+    margin: 2px 1px;
+}
+
+@media only screen and (max-width:912px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .navbar{
+        transition: all 0.3s ease-out;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        height: 68px;
+        
+    }
+    .left{
+        padding-top: 120px ;
+        align-items: center;
+        
+    }
+    nav ul{
+        flex-direction: column;
+        background-color:rgb(25, 25, 61); 
+        width: 912px;
+        align-items:center ;
+    }
+    .listResp{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+    
+    section{
+        padding-top: 50px;
+    }
+    .first{
+        flex-direction: column-reverse;
+    }
+    .first > div{
+        width: 45%;
+
+    }
+    .rightSection{
+        
+        max-width: 100%;   
+    }
+    .leftSection{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 1.4rem;
+    }
+    .scrolling{
+        height:0 ;
+    }
+    .sec{
+        /*flex-direction: column;*/
+        font-size: 10px;
+        align-items: center;
+        height: fit-content;
+        margin-top: 0;
+       
+
+    }
+    .lSection{
+        /*width: 600px;*/
+        height: fit-content;
+        
+        margin-top: 0px;
+    }
+   
+    .rSection{
+        margin-top: 0px;
+        height: fit-content;
+        width: auto;
+
+        
+    }
+    .lSection h1{
+        
+        margin: 20px 0;
+        width: 250px;
+        padding-top: 0;
+    }
+    #head{
+        margin: 20px 0;
+        position: relative;
+        left: 80px;
+
+    }
+    .fifth{
+        margin: 20px 10px;
+    }
+    #contact{
+        margin: 20px 10px;
+    }
+    
+    .fResp{
+        text-align: center;
+        
+        
+    }
+    footer{
+        padding:5px 0;
+        
+        align-self:auto;
+       
+       height:auto;
+    }
+    h3{
+        font-size: 14px ;
+    }
+    
+    
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+
+    .footer-second{
+        text-align: center;
+    }
+    .footer-first{
+        text-align: center;
+    }
+
+    .hResp{
+        padding-top: 0;
+    }
+   
+
+}
+@media only screen and (max-width:1024px){
+    .third{
+        size-adjust: auto;
+        margin-top: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height:700px;
+        width: 100%;
+    }
+    .box{
+        margin: 0;
+        position: relative;
+        left:-30px;
+        top: -200px;
+        width: 250px;
+        margin-bottom:90px;
+        flex-direction: column;
+    
+    }
+    .vertical{
+        align-items: center;
+        
+        
+    }
+    .vertical-title{
+        position: relative;
+        top: -20px;
+        padding-left: 20px;
+    }
+    .vertical-desc{
+        position: relative;
+        top: -20px;
+        padding-left: 20px;
+    }
+    .vertical img{
+        position: relative;
+        left: -40px;
+        top: 20px;
+        width: 40px;
+    }
+
+}
