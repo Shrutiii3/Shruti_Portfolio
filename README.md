@@ -8,10 +8,7 @@ This project is a personal portfolio website showcasing my skills, projects, and
 - Modern Web Technologies: Utilized modern web development technologies such as HTML, CSS, and JavaScript.
 - Regular Updates: Maintained the website with regular updates to reflect new skills and projects.
 - High Availability: Deployed the website on GitHub Pages for high availability and performance.
-## Viewing the Website
-The website is deployed on GitHub Pages and can be accessed at :
 
-[https://shrutiii3.github.io/Shruti_Portfolio/](https://shrutiii3.github.io/Shruti_Portfolio/)
 ## Screenshots
 ![img2](https://github.com/Shrutiii3/Shruti_Portfolio/assets/124484769/60110761-75f7-4287-8c06-a3db4dd0ac6f)   
 
