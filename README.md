@@ -10,5 +10,6 @@ This project is a personal portfolio website showcasing my skills, projects, and
 - High Availability: Deployed the website on GitHub Pages for high availability and performance.
 ## Viewing the Website
 The website is deployed on GitHub Pages and can be accessed at:
+
 [https://shrutiii3.github.io/Shruti_Portfolio/](https://shrutiii3.github.io/Shruti_Portfolio/)
 
