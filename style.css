@@ -38,7 +38,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: rgb(136, 136, 211);
-    font-size: 1.09rem;
+    /*font-size: 1.09rem;*/
 }
 main{
     
