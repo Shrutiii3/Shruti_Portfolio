@@ -132,14 +132,7 @@ main{
     
     
 }
-/*.lSection:hover{
-    box-shadow: 10px 10px 8px rgb(106, 88, 97);
-    
-    transform: translateY(-2px) ;
-    
-    cursor: pointer;
-    
-}*/
+
 .rSection{
     padding: 30px;
     /*margin-top: 300px;*/
@@ -153,76 +146,39 @@ main{
     border-radius: 15px;
 }
 
-/*.rSection:hover{
-    box-shadow: 10px 10px 8px #b0b0c6;
-    box-shadow: 10px 10px 8px rgb(106, 88, 97);
-    background-color: rgb(230, 248, 248);
-   
-    transform: translateY(-4px) ;
-    
-    cursor: pointer;
-    
- 
-}*/
+
 .third{
     
-    height:300px;
+    height:max-content;
     
    
 }
+
 .box{
-    display: flex;
-    background:black ;
-    height: 2.5px;
-    width: 80%;
-    margin-top: 180px;
-    margin-left: 100px;
     
-
-}
-
-.vertical{
-    height: 83px;
-    width: 1px;
-    background-color: black;
-    margin-left: 110px;  
-    margin-right: 40px;
-
+    color: black;
     
-}
-.vertical img{
-    z-index: 50;
-    position: relative;
-    z-index: 50;
-    width: 50px;
-    top: -50px;
-    left: -23px;
-}
-.vertical-title{
-    font-size: 25px;
-    position: relative;
-    top: 60px;
-    width: 150px;
-    color:rgb(94, 64, 59) ;
-    font-weight: bold;
-    cursor:pointer;
+    align-items: start;
+    margin:100px 30px;
+    column-gap: 20px;
 
 }
-.vertical .vertical-title:hover{
-    font-weight: bolder;
+.rectangle{
+    padding: 30px;
+    
+    background-color: rgb(230, 248, 248);
+    /**/
+    height: 30px;
+    /*justify-content: center;*/
+    border-radius: 15px;
+    margin: 20px 40px;
+    font-size: 20px;
 }
-.vertical-desc{
-    position: relative;
-    top: 75px;
-    font-size: 8px;
-    width: 90px;
-    color: rgb(63, 41, 43) ;
+.rectangle:hover{
+    transform: translateY(-1px);
+    box-shadow: 10px 10px 10px rgb(106, 88, 97);
 }
-.vertical .vertical-desc:hover{
-    font-size: 15px;
-    cursor: pointer;
-    width: 150px;
-}
+
 .forth{
     display: flex;
     justify-content: space-around;
@@ -247,11 +203,9 @@ main{
     border-radius: 10px;
     cursor: pointer;
     border: 10px 10px black;
-}
-.card:hover{
-    transform: translateY(-2px);
     box-shadow: 10px 10px 10px rgb(106, 88, 97);
 }
+
 .desc p{
     margin: 8px 0;
 }
@@ -261,6 +215,24 @@ main{
     object-fit:cover;
     
 
+}
+.button-container {
+  display: flex;
+  justify-content:space-between;
+  
+}
+
+.more {
+  color: black;
+  background-color: white;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.more:hover{
+    transform: translateY(-1px);
+    box-shadow: 10px 10px 10px rgb(106, 88, 97);
 }
 .video{
     justify-content:space-around;
@@ -497,18 +469,16 @@ footer .footer-rights{
         display: grid;
         justify-content: center;
         align-items: center;
-        height:700px;
+        height:fit-content;
         width: 100%;
     }
     .box{
         margin: 0;
-        position: relative;
-        left:-30px;
-        top: -200px;
-        width: 250px;
-        margin-bottom:90px;
-        flex-direction: column;
+        
     
+    }
+    .rectangle{
+        height: fit-content;
     }
     .vertical{
         align-items: center;
